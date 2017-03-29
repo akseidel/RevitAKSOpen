@@ -1,4 +1,4 @@
-# RevitAKSOpen ![GenieOpener](RevitAKSOpen/AKSOpen3.PNG)
+# RevitAKSOpen ![GenieOpener](RevitAKSOpen/AKSOpen3.png)
 
 Revit add-in in C# &ndash; creates a custom ribbon tab with a single control for opening workshared Revit files in one click. The same control is added to the Addins tab. The controls are active at all times.
 
