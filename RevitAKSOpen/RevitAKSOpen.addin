@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application RevitAKSOpen</Name>
+    <Assembly>RevitAKSOpen.dll</Assembly>
+    <FullClassName>RevitAKSOpen.App</FullClassName>
+    <ClientId>87791F4F-78EE-44F3-BA28-75F3A751F748</ClientId>
+    <VendorId>AKS</VendorId>
+    <VendorDescription>AKS</VendorDescription>
+  </AddIn>
+</RevitAddIns>
