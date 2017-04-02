@@ -10,18 +10,20 @@ Why not present the user with choices from what they have already been working o
 This add-in demonstrates many of the typical tasks and implementation required for providing a tab menu interface and dealing with files. A back burner improvement is to make the user selection landing areas larger, perhaps changing to or adding preview icons to the interface.
 
 ## Specific Interest
+**"Tell Me About It" Mode**
+* A function reporting a Revit file's metadata to determine what Revit version it may be. It reports other useful information. This is one way to determine a Revit file's provenance without actually opening the file in Revit.
+
+**Zero document state operation**
+* Having the add-in available to run when there is not already a Revit file open is called zero document state availability. It makes sense for this add-in to have that availability.
+
+**Writing to the Revit status bar**
+* A thing to know. Revit funnels most of its feedback to the status bar. This add-in uses the status bar to be a whimsical check on who is paying attention.
 
 **Useful mundane file and directory operations for reuse**
 * Making local folders identified with the user's initials.
 * Moving prior local files to a local stash folder.
 * Indexing the prior local file names so that one can see their generation. This involves the "make a unique name" task one runs into needing in many situations.
 * Pruning the number of stashed files.
-
-**"Tell Me About It" Mode**
-* A function reporting a Revit file's metadata to determine what Revit version it may be. It reports other useful information. This is one way to determine a Revit file's provenance without actually opening the file in Revit.
-
-**Zero document state operation**
-* Having the add-in available to run when there is not already a Revit file open is called zero document state availability. It makes sense for this add-in to have that availability.  
 
 This repository is provided for sharing and learning purposes. Perhaps someone might provide improvements or education. Perhaps it will help to boost someone further up the steep learning curve needed to create Revit task add-ins. Hopefully it does not show too much of the wrong way.  
 
