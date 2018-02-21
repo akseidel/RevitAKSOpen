@@ -29,5 +29,23 @@ namespace RevitAKSOpen {
             }
             return Result.Succeeded;
         }
+
+
+        public Result T(ExternalCommandData commandData,
+          ref string message,
+          ElementSet elements) {
+            UIApplication uiapp = commandData.Application;
+            UIDocument uidoc = uiapp.ActiveUIDocument;
+            View v = uidoc.ActiveView;
+
+            ElementId i = new ElementId(123);
+            Element e = uidoc.Document.GetElement(i);
+
+            e.get_BoundingBox(v);
+
+           // v.get_BoundingBox()
+
+            return Result.Succeeded;
+        }
     }
 }
